@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AppExtention"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="5545e510-b8d1-4df4-a02e-4fdd4e13587e"
+        ClientSideComponentProperties="{&quot;favicon&quot;:&quot;https://ittuz.sharepoint.com/sites/IThinkTech/SiteAssets/favicon/dev.ico&quot;,&quot;titleName&quot;:&quot;ITT - IThink Tech&quot;}">
+    </CustomAction>
+</Elements>

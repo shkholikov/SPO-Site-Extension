@@ -1,0 +1,43 @@
+{
+	"$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+	"solution": {
+		"name": "app-extention-client-side-solution",
+		"id": "575998aa-61a8-4ac7-927d-5eb5c6bc8858",
+		"version": "1.0.0.0",
+		"includeClientSideAssets": true,
+		"skipFeatureDeployment": true,
+		"isDomainIsolated": false,
+		"developer": {
+			"name": "",
+			"websiteUrl": "",
+			"privacyUrl": "",
+			"termsOfUseUrl": "",
+			"mpnId": "Undefined-1.15.0"
+		},
+		"metadata": {
+			"shortDescription": {
+				"default": "app-extention description"
+			},
+			"longDescription": {
+				"default": "app-extention description"
+			},
+			"screenshotPaths": [],
+			"videoUrl": "",
+			"categories": []
+		},
+		"features": [
+			{
+				"title": "Application Extension - Deployment of custom action",
+				"description": "Deploys a custom action with ClientSideComponentId association",
+				"id": "0623c711-34e1-4e7a-b7c7-fa13641667fb",
+				"version": "1.0.0.0",
+				"assets": {
+					"elementManifests": ["elements.xml"]
+				}
+			}
+		]
+	},
+	"paths": {
+		"zippedPackage": "solution/app-extention.sppkg"
+	}
+}
